@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <!--
+        Las listas en HTML sirven para listar contenido 
+        Existen 3 tipos de listas
+
+        "ul" unordered list: se utiliza cuando el orden de los elementos no influye (lista de compra)
+
+        "ol" ordered list: Se utiliza cuando el orden de los elementos es importante (top 10)
+        
+            Cada elemento de la lista se representa con la etiqueta <li>, tanto en las dl como en las ol
+
+       
+    -->
+    <h1>Listas</h1>
+    
+    <!--Forma correcta de hacer menu-->
+    <nav>
+        <ul>
+            <li><a href="#post-1">Post 1</a></li>
+            <li><a href="#post-2">Post 2</a></li>
+            <li><a href="#post-3">Post 3</a></li>
+            <li><a href="#post-4">Post 4</a></li>
+            <li><a href="#post-5">Post 5</a></li>
+        </ul>
+    </nav>
+    
+    <h2>Lista de compra</h2>
+    <ul>
+        <!--Para colocar los items se utiliza la etiqueta "<li>"-->
+        <li>Pan</li>
+        <li>Huevos</li>
+        <li>Leche</li>
+    </ul>
+
+    <h2>Orden de aprendizaje en el desarrollo web</h2>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIP</li>
+        </ol>
+
+<!--
+    "dl" definition list: se utilzan para hacer una lista de definiciones (diccionario)   
+        "dt" Definition term: el termino que vamos a definir
+        "dd" Definition description: La descripcion del termino
+-->
+    <h2>Lenguajes para el desarrollo web</h2>
+        <dl>
+            <dt>HTML</dt>
+                <dd>HypeText Markup Language: Es un lenguaje de marcado que se usa para estructurar datos en una pag web</dd>
+            <dt>CSS</dt>
+                <dd>CSS, en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado</dd>
+            <dt>JAVASCRIP</dt>
+                <dd>JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico.</dd>
+        </dl>
+    
+<!--
+    ol: 
+        type: estilo de numeracion (1,A,a,I.i)
+        start: inicio de las secuencia (Un numero)
+    ul:
+        type: Estilo de los items (disc, squeare, circle)
+-->
+    <h2>Atributos de las listas</h2> 
+        <ul type="circle">
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+        </ul>
+        <ol type="1" start="1">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+</body>
+</html>
